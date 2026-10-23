@@ -1,0 +1,43 @@
+/* Design tokens — Techno Market (холодный retail / tech) */
+:root {
+  --tm-ink: #0f172a;
+  --tm-ink-muted: #64748b;
+  --tm-ink-subtle: #94a3b8;
+  --tm-surface: #f1f5f9;
+  --tm-surface-raised: #ffffff;
+  --tm-surface-sunken: #e2e8f0;
+  --tm-border: #e2e8f0;
+  --tm-border-strong: #cbd5e1;
+  --tm-accent: #1d4ed8;
+  --tm-accent-hover: #1e40af;
+  --tm-accent-soft: #dbeafe;
+  --tm-success: #047857;
+  --tm-warning: #b45309;
+  --tm-danger: #b91c1c;
+  --tm-focus: #2563eb;
+  --tm-radius: 8px;
+  --tm-radius-sm: 6px;
+  --tm-shadow: 0 1px 2px rgb(15 23 42 / 0.06);
+  --tm-header-h: 64px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --tm-ink: #f1f5f9;
+    --tm-ink-muted: #94a3b8;
+    --tm-ink-subtle: #64748b;
+    --tm-surface: #0b1220;
+    --tm-surface-raised: #111827;
+    --tm-surface-sunken: #1e293b;
+    --tm-border: #1e293b;
+    --tm-border-strong: #334155;
+    --tm-accent: #3b82f6;
+    --tm-accent-hover: #60a5fa;
+    --tm-accent-soft: #1e3a5f;
+    --tm-success: #34d399;
+    --tm-warning: #fbbf24;
+    --tm-danger: #f87171;
+    --tm-focus: #60a5fa;
+    --tm-shadow: 0 1px 2px rgb(0 0 0 / 0.35);
+  }
+}
